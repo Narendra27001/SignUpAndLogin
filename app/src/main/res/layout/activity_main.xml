@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP ACTIVITY"
+        android:textSize="20sp"
+        android:textColor="#aa00"
+        android:textAlignment="center"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter User id "
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/uid"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/pwd"
+        android:maxLines="1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        android:id="@+id/signup"
+        android:onClick="signup"
+        />
+
+</LinearLayout>
